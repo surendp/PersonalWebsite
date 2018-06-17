@@ -7,6 +7,8 @@
 
 - Use webpack to create a bundle of static files used in the webpage
 
+- Use npm for managing the packages
+
 #### Development Targets
 
 - Learn to use grid-view and media queries in CSS.
