@@ -1,0 +1,29 @@
+
+.project-list-outer{
+  padding: 5% 5% 5% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-list-inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 625px;
+}
+
+.project-list-item{
+  border: 1px solid black;
+  box-shadow: 5px 5px;
+  border-radius: 4%;
+  margin-bottom: 4%;
+}
+
+.project-list-item:hover {
+  background-color: grey;
+}
+
+.project-image > img{
+  min-width: 300px;
+  width: 40%;
+}

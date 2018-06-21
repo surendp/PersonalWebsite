@@ -11,33 +11,6 @@ html, body {
 }
 
 .root-div{
-  height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-header {
-  background-color: grey;
-  top: 0;
-  width: 100%;
-}
-
-footer {
-  flex-shrink: 0;
-  background-color: grey;
-}
-
-.projects{
-  flex:auto;
-  background-color: yellow;
-}
-
-header:hover {
-  background-color: black;
-  color: white;
-}
-
-footer:hover{
-  background-color: black;
-  color: white;
 }

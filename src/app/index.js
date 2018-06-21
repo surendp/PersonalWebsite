@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom';
 
 import Header from './header';
 import Footer from './footer';
-import Projects from './projects';
+import ProjectList from './components/projectList';
 
 import '../styles/main.css';
+import '../styles/header-footer.css';
 
 const App = () => (
   <div className = "root-div">
     <Header />
-    <Projects />
+    <ProjectList />
     <Footer />
   </div>
 )

@@ -4,7 +4,7 @@
   "description": "This is a digital portfolio project, targeted for learning modern web development.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --history-api-fallback --progress"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "file-loader": "^1.1.11",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
   }
