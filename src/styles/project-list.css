@@ -27,3 +27,8 @@
   min-width: 300px;
   width: 40%;
 }
+
+.project-list-item > a {
+  padding: 5% 5% 5% 5%;
+  margin-bottom:  5%;
+}
