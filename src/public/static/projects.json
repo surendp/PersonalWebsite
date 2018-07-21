@@ -1,0 +1,46 @@
+{
+"projects":[
+    { "name":"Personal Website",
+      "description":"A website for displaying personal information.",
+      "image": { "url": "./images/portfolio.png"},
+      "url": {"githubLink": "https://github.com/surendp/PersonalWebsite",
+              "projectLink": "http://localhost:8080/"
+              }
+    },
+    { "name":"Himalayan Kitchen",
+      "description":"A restaurant website",
+      "image": { "url": "./images/himalayan-kitchen-frontpage.png"},
+      "url": {"githubLink": "https://github.com/surendp/himalayankitchen",
+              "projectLink": "https://secret-castle-23220.herokuapp.com"
+              }
+    },
+    { "name":"Board Game",
+      "description":"A web based game",
+      "image": { "url": "./images/board-game.png"},
+      "url": {"githubLink": "https://github.com/surendp/",
+              "projectLink": "http://users.metropolia.fi/~surendp/BoardGameCanvasOopJqueryVersion_0.1/FirstPage/"
+              }
+    },
+    { "name":"Mine Sweeper",
+      "description":"A Console Game",
+      "image": { "url": "./images/minesweeper.png"},
+      "url": {"githubLink": "https://github.com/surendp/Minesweeper",
+              "projectLink": "#"
+              }
+    },
+    { "name":"Voting Application",
+      "description":"A mini project",
+      "image": { "url": "./images/voting-app.png"},
+      "url": {"githubLink": "https://github.com/surendp/VotingApp",
+              "projectLink": "#"
+              }
+    },
+    { "name":"Youtube Videos Player",
+      "description":"An application to play youtube videos",
+      "image": { "url": "./images/youtube-video-player.png"},
+      "url": {"githubLink": "https://github.com/surendp/YoutubeVideosStreamingApp",
+              "projectLink": "#"
+              }
+    }
+  ]
+}
