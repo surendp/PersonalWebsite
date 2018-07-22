@@ -1,10 +1,12 @@
 
-export default function () {
+import { PROJECT_LIST } from '../actions/action_index';
 
-  return [
-    {name: "Himalayan Kitchen"},
-    {name: "Board Game"},
-    {name: "Minesweeper"},
-    {name: "Youtube Vide Player"}
-  ];
+export default function (state=[], action) {
+  
+  switch (action.type) {
+    case PROJECT_LIST:
+      return action.payload.data.projects;
+  }
+
+  return state;
 };

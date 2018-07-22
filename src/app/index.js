@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
+import promiseMiddleware from 'redux-promise';
 
 import Header from './header';
 import Footer from './footer';
@@ -11,7 +12,7 @@ import '../styles/main.css';
 import '../styles/header-footer.css';
 import reducers from './reducers'
 
-const createStoreWithMiddleWare = applyMiddleware()(createStore);
+const createStoreWithMiddleWare = applyMiddleware(promiseMiddleware)(createStore);
 
 const App = () => (
   <div className = "root-div">

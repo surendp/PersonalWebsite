@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import { bindActionCreators } from 'redux';
+
 import ProjectListItem from '../components/project_list_item';
 import '../../styles/project-list.css';
 
+import {projectListActionCreator} from "../actions/action_index";
+
 class ProjectList extends Component {
+
+  componentDidMount(){
+    this.props.projectListActionCreator();
+  }
 
   renderList(projects){
     return(
@@ -19,7 +27,7 @@ class ProjectList extends Component {
     return(
       <div className = "project-list-outer">
         <div className = "project-list-inner">
-          {this.renderList(this.props.projects)}
+          { this.renderList(this.props.projects) }
         </div>
       </div>
     )
@@ -34,4 +42,9 @@ function mapStateToProps(state){
   };
 }
 
-export default connect(mapStateToProps)(ProjectList);
+// pass the action creator as props in ProjectList component
+function mapDispatchTOProps(dispatch){
+  return bindActionCreators({ projectListActionCreator }, dispatch);
+}
+
+export default connect(mapStateToProps, mapDispatchTOProps)(ProjectList);

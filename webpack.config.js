@@ -30,6 +30,8 @@ module.exports = {
       ]
    },
 
+   mode: "development",
+
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/public/index.html"
